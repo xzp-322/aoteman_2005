@@ -1,3 +1,13 @@
 module.exports = {
-  lintOnSave: false
+  lintOnSave: false,
+  devServer:{
+    proxy:{
+      "/api":{
+        target:"http://www.chst.vip",
+        pathRewrite:{
+          "^/api":""
+        }
+      }
+    }
+  }
 };
