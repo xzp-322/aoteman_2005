@@ -1,0 +1,10 @@
+
+
+/* 登入页表单输入框样式 */
+  .login-pages .el-input__inner{
+    width: 83% !important;
+    padding: 0;
+}
+.el-form-item__label{
+    padding-right:0px ;
+  }
